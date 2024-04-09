@@ -10,8 +10,8 @@ CORS(app)
 s3 = boto3.client(
     's3',
     region_name='ap-south-1',  # Specify your AWS region
-    aws_access_key_id="access_key",  # Use environment variables
-    aws_secret_access_key="secret-access-key"
+    aws_access_key_id="AKIA5FTZDTTALKPCCWMU",  # Use environment variables
+    aws_secret_access_key="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"
 )
 
 @app.route('/')
